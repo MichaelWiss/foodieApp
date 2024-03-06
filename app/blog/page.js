@@ -12,4 +12,4 @@ function BlogPage() {
   );
 }
 
-export default page
+export default BlogPage;
