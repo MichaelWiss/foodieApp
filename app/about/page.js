@@ -2,7 +2,7 @@
 const AboutPage = () => {
   return (
     <main>
-        <h1>AboutPage</h1>
+        <h1>About Page</h1>
     </main>
     
   )
