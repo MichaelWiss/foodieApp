@@ -24,12 +24,6 @@
       "static/css/app/community/page.css",
       "static/chunks/app/community/page.js"
     ],
-    "/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/loading.css",
-      "static/chunks/app/loading.js"
-    ],
     "/meals/[mealSlug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
