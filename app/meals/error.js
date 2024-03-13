@@ -1,7 +1,11 @@
+'use client';
 import React from 'react'
 
 export default function Error() {
   return (
-    <div>Error</div>
-  )
+    <main className="error">
+        <h1>An Error Occurred!</h1>
+        <p>Failed to fetch meal data. Please try again later.</p>
+    </main>
+  );
 }
