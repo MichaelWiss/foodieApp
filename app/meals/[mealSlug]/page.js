@@ -4,7 +4,9 @@ import classes from './page.module.css';
 import Image from 'next/image';
 
 export default function MealDetailsPage({params}) {
-  const meal = getMeal(params.mealSlug)
+  const meal = getMeal(params.mealSlug);
+
+  meal.instructions = meal.instructions.replace(/\n/g, '<br />');
 
   return (
     <>
@@ -21,7 +23,8 @@ export default function MealDetailsPage({params}) {
         </div>
       </header>
       <main>
-        <p className={classes.instructions} dangerouslySetInnerHTML={{__html: meal.instructions,
+        <p className={classes.instructions} dangerouslySetInnerHTML={{
+          __html: meal.instructions,
         }}></p>
       </main>
     </>
