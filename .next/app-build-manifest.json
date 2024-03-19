@@ -33,6 +33,11 @@
       "static/chunks/main-app.js",
       "static/css/app/meals/[mealSlug]/page.css",
       "static/chunks/app/meals/[mealSlug]/page.js"
+    ],
+    "/meals/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/meals/not-found.js"
     ]
   }
 }
