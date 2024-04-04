@@ -32,6 +32,11 @@
       "static/chunks/main-app.js",
       "static/css/app/meals/share/page.css",
       "static/chunks/app/meals/share/page.js"
+    ],
+    "/meals/share/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/meals/share/error.js"
     ]
   }
 }
