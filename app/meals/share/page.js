@@ -1,5 +1,4 @@
-'use-client';
-
+'use client';
 import { useFormState } from 'react-dom';
 
 import ImagePicker from '@/components/meals/image-picker';
