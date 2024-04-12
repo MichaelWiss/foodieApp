@@ -1,4 +1,5 @@
 'use client';
+
 import { useFormState } from 'react-dom';
 
 import ImagePicker from '@/components/meals/image-picker';
@@ -48,7 +49,7 @@ export default function ShareMealPage() {
             ></textarea>
           </p>
           <ImagePicker label="Your image" name="image"/>
-          {state.message && <p>{state}</p>}
+          {state.message && <p>{state.message}</p>}
           <p className={classes.actions}>
             <MealsFormSubmit />
           </p>
