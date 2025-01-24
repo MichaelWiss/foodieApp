@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function MealSharePage() {
   return (
-    <div>Share your recipe!</div>
+    <div>
+        <h1>Share your recipe!</h1>
+    </div>
   )
 }
