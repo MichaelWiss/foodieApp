@@ -1,4 +1,5 @@
 'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -22,9 +23,7 @@ export default function MainHeader() {
         <nav className={classes.nav}>
             <ul>
                 <li>
-                    <Link href="/meals" className={
-                        path.startsWith('/meals') ? classes.active : undefined}
-                        >Browse Meals</Link>
+                    
                 </li>
                 <li>
                     <Link href="/community" className={
