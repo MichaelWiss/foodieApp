@@ -1,8 +1,11 @@
-export default function NavLink() {
+import Link from "next/link";
+
+export default function NavLink({href, children}) {
     return (
-        <Link href="/meals" className={
-            path.startsWith('/meals') ? classes.active : undefined}
-            >Browse Meals
+        <Link href={href}
+            className={
+            path.startsWith(href) ? classes.active : undefined}
+            >{children}
             </Link>
     );
 }
