@@ -16,6 +16,8 @@ export default function MealSharePage(second) {
                 </Link>
             </p>
         </header>
-        <main className={classes.main}></main>
+        <main className={classes.main}>
+            
+        </main>
     </>
 }
