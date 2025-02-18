@@ -6,7 +6,9 @@ import { getMeal } from '@/lib/meals';
 
 
 export default function MealDetailPage({params}) {
-  const meal = getMeal(params.mealSlug)
+  const meal = getMeal(params.mealSlug);
+
+  meal.instructions = meal.instructions.replace(/\n/g, '<br />');
 
   return ( 
   <>
