@@ -16,6 +16,7 @@ export default function ImagePicker({label, name}) {
         const file = event.target.files[0];
 
         if (!file) {
+            setPickedImage(null);
             return;
         }
 
@@ -43,13 +44,14 @@ export default function ImagePicker({label, name}) {
                 )}
             </div>
             <input
-                className={classes.inputs}
+                className={classes.input}
                 type="file" 
-                id="image" 
+                id={name} 
                 accept="image/png, image/jpeg" 
                 name={name}
                 ref={imageInput}
                 onChange={handleImageChange}
+                required
             />
             <button 
                 className={classes.button} 
@@ -57,7 +59,7 @@ export default function ImagePicker({label, name}) {
                 onClick={handlePickClick}
                 >
                 Pick an Image
-                </button>
+             </button>
         </div>
     </div>
     );

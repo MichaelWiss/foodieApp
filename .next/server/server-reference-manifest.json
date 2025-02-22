@@ -1,5 +1,14 @@
 {
-  "node": {},
+  "node": {
+    "2d7a618385e6c33ecd6d1131533b9750bc508054": {
+      "workers": {
+        "app/meals/share/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FVolumes%2FCode%2FCode%2FNext%2FfoodieApp%2Fapp%2Fmeals%2Fshare%2Fpage.js%22%2C%5B%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/meals/share/page": "rsc"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "FtjWgx6MQUIre6NFzp+tFO0u5QQOCswt8kgNvflc9Dw="
+  "encryptionKey": "ayD7zimklboy2rvDLRKKucbbRzfGIXT9eW5Lk3bICQ8="
 }
