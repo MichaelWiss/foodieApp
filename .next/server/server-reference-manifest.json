@@ -1,13 +1,5 @@
 {
   "node": {
-    "2d7a618385e6c33ecd6d1131533b9750bc508054": {
-      "workers": {
-        "app/meals/share/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FVolumes%2FCode%2FCode%2FNext%2FfoodieApp%2Fapp%2Fmeals%2Fshare%2Fpage.js%22%2C%5B%22%24%24ACTION_0%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/meals/share/page": "rsc"
-      }
-    },
     "75d9657a3bf219f4e6907010a3de40ede71690a8": {
       "workers": {
         "app/meals/share/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FVolumes%2FCode%2FCode%2FNext%2FfoodieApp%2Flib%2Factions.js%22%2C%5B%22shareMeal%22%5D%5D%5D&__client_imported__=true!"
@@ -18,5 +10,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "LgCRASyR3Au94dE+dlAr0RnwHQ1K8GOx6fXEt9wFdOY="
+  "encryptionKey": "43iVsYz0SB4fZnCSHDB/dmvCGp56DXsuO4GBLrrqRV0="
 }
