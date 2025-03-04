@@ -1,17 +1,1 @@
-{
-  "node": {
-    "60f169cff285662bf9599fb95b9fb3821b509d9f8f": {
-      "workers": {
-        "app/meals/share/page": {
-          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FVolumes%2FCode%2FCode%2FNext%2FfoodieApp%2Flib%2Factions.js%22%2C%5B%7B%22id%22%3A%2260f169cff285662bf9599fb95b9fb3821b509d9f8f%22%2C%22exportedName%22%3A%22shareMeal%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/meals/share/page": "action-browser"
-      }
-    }
-  },
-  "edge": {},
-  "encryptionKey": "5ms+BnJb5QVnogeyQooPwFcINX6Kycsb7HfiChot5VM="
-}
+{"node":{"60f169cff285662bf9599fb95b9fb3821b509d9f8f":{"workers":{"app/meals/share/page":{"moduleId":"12521","async":false}},"layer":{"app/meals/share/page":"action-browser"}}},"edge":{},"encryptionKey":"5ms+BnJb5QVnogeyQooPwFcINX6Kycsb7HfiChot5VM="}
