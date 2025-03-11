@@ -9,10 +9,10 @@ export default function MealItem({ title, slug, image, summary, creator }) {
       <header>
         <div className={classes.image}>
         <Image
-      src={`https://michaelwiss-foodie-users-image.amazonaws.com/${image}`}
-      alt={title}
-      fill
-    />
+            src={`https://michaelwiss-foodie-users-image.s3.us-east-2.amazonaws.com/${image}`}
+            alt={title}
+            fill
+         />
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>
