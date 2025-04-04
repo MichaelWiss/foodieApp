@@ -12,13 +12,17 @@ const nextConfig = {
   },
 };
 
-module.exports = {
-    experimental: {
-      serverActions: {
-        bodySizeLimit: '4mb',
-      },
-    },
-  }
+module.exports = nextConfig;
+
+// module.exports = nextConfig,
+//  {
+//     experimental: {
+//       serverActions: {
+//         bodySizeLimit: '4mb',
+//       },
+//     },
+//   }
+
 
 
 
