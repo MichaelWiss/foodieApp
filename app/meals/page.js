@@ -6,7 +6,7 @@ import { Suspense } from 'react';
 
 export const metadata = {
     title: 'All Meals',
-    description: 'Delicious meals, shared by a food loving community.',
+    description: 'Browse the delicious meals shared by our vibrant community.',
 };
 
 
